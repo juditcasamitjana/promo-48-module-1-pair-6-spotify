@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    color: white;
+    display: inline-block
+}
+
