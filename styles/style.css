@@ -4,6 +4,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -20,10 +22,11 @@ header {
 }
 
 .hero {
-    width: 500px;
-    background-color: rgb(51, 164, 216);
-    /*background-image: url(../images/premium_dancer.png);
-    background-size: cover;*/
+    width: 100vw;
+    background-color: #529CF1;
+    background-image: url(../images/premium_dancer.png);
+    background-size: cover;
+    height: 50vh;
 }
 
 h1 {
@@ -31,4 +34,38 @@ h1 {
     color: white;
 }
 
+h3 {
+    color: white;
+}
 
+.condiciones {
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.premium {
+    height: 50vh;
+}
+
+button {
+    color: green;
+}
+
+.padre {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descarga {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    padding: 40px;
+}
