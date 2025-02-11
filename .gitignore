@@ -5,6 +5,8 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+.vite/
+.vite
 
 # macOS
 *.DS_Store
