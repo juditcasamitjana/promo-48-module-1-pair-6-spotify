@@ -1,0 +1,31 @@
+.premium {
+    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-template-rows: 100px 500px 200px 100px;
+}
+
+h2 {
+    background-color: aquamarine;
+    grid-column: span 4;
+}
+
+.item1 {
+    background-color: lightblue;
+    grid-row: 1/2;
+}
+
+.item2 {
+    background-color: lightsalmon;
+    grid-row: 2/3;
+}
+
+.item3 {
+    background-color: lavender;
+    grid-row: 3/4;
+}
+
+.item4 {
+    background-color: lightcyan;
+    grid-row: 4/5;
+}
